@@ -1,156 +1,178 @@
 <!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📩 تواصل معنا - فيليكس API</title>
 
-<html lang="ar" dir="rtl">  
-<head>  
-  <meta charset="utf-8" />  
-  <meta name="viewport" content="width=device-width, initial-scale=1" />  
-  <title>𝑹𝑰𝒀𝑨𝑫 — مطور بوتات واتساب</title>  
-  <style>  
-    :root {  
-      --bg1: #4b0082;  
-      --bg2: #000000;  
-      --accent1: #8a2be2;  
-      --accent2: #6a0dad;  
-      --text-light: #f6f6ff;  
-      font-family: 'Tajawal', 'Segoe UI', sans-serif;  
-    }  
-    html, body {  
-      margin: 0;  
-      padding: 0;  
-      height: 100%;  
-      background: linear-gradient(135deg, var(--bg1), var(--bg2));  
-      color: var(--text-light);  
-    }  
-    header {  
-      text-align: center;  
-      padding: 40px 20px;  
-      background: rgba(0, 0, 0, 0.7);  
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);  
-      border-radius: 15px;  
-      margin-bottom: 30px;  
-    }  
-    header img {  
-      width: 150px;  
-      height: 150px;  
-      border-radius: 50%;  
-      object-fit: cover;  
-      border: 3px solid rgba(255,255,255,0.6);  
-      box-shadow: 0 0 20px rgba(138,43,226,0.7);  
-    }  
-    header h1 {  
-      margin: 15px 0 10px;  
-      font-size: 26px;  
-      letter-spacing: 1px;  
-    }  
-    header p {  
-      font-size: 16px;  
-      opacity: 0.9;  
-    }  
-    main {  
-      padding: 40px 20px;  
-      max-width: 1200px;  
-      margin: auto;  
-      display: grid;  
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
-      gap: 20px;  
-    }  
-    .section {  
-      background: rgba(255,255,255,0.1);  
-      border: 1px solid rgba(255,255,255,0.3);  
-      border-radius: 20px;  
-      padding: 20px;  
-      box-shadow: 0 8px 25px rgba(0,0,0,0.4);  
-      transition: transform 0.3s, box-shadow 0.3s;  
-    }  
-    .section:hover {  
-      transform: translateY(-6px);  
-      box-shadow: 0 10px 35px rgba(138,43,226,0.6);  
-    }  
-    .section h2 {  
-      margin-top: 0;  
-      font-size: 18px;  
-      color: var(--accent1);  
-      text-align: center;  
-    }  
-    .section p {  
-      font-size: 15px;  
-      line-height: 1.8;  
-    }  
-    .button-group {  
-      display: flex;  
-      flex-direction: column;  
-      align-items: center;  
-      margin-top: 20px;  
-    }  
-    .whatsapp-btn, .youtube-btn, .tiktok-btn {  
-      display: block;  
-      text-decoration: none;  
-      background: linear-gradient(90deg, var(--accent1), var(--accent2));  
-      color: white;  
-      padding: 14px 20px;  
-      border-radius: 12px;  
-      font-weight: bold;  
-      box-shadow: 0 5px 20px rgba(74,0,123,0.3);  
-      transition: background 0.3s, transform 0.3s;  
-      margin: 10px 0;  
-      width: 220px;  
-      text-align: center;  
-    }  
-    .whatsapp-btn:hover, .youtube-btn:hover, .tiktok-btn:hover {  
-      transform: scale(1.05);  
-      background: linear-gradient(90deg, var(--accent2), var(--accent1));  
-    }  
-    footer {  
-      text-align: center;  
-      padding: 20px;  
-      font-size: 14px;  
-      opacity: 0.7;  
-      border-top: 1px solid rgba(255,255,255,0.2);  
-    }  
-  </style>  
-</head>  
-<body>  
-  <header>  
-    <img src="https://ai-seek-user-image.s3.us-east-1.amazonaws.com/202510/21/50072ad471dd4786a88ee3cfd9646ce6sfi0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MTWODAZEP5GANEB%2F20251021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251021T155237Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c03e2b00cb51297ad96eaac498ae35423b2933b3a6d2a1c99e242471021bf6ce" alt="رياض صورة شخصية">  
-    <h1>مرحبًا بك في عالمي 👋</h1>  
-    <p>أنا <strong>𝑹𝑰𝒀𝑨𝑫</strong>، مطور بوتات واتساب محترف، أعمل على بناء أنظمة ذكية تدمج بين البساطة والاحترافية.</p>  
-  </header>  
-  <main>  
-    <div class="section">  
-      <h2>👨‍💻 من أنا</h2>  
-      <p>مطور بوتات واتساب بخبرة في Node.js وBaileys وTermux. أبرمج بوتات تفاعلية ذكية تقدم خدمات متنوعة للمستخدمين.</p>  
-    </div>  
-    <div class="section">  
-      <h2>⚙️ ما أقدمه</h2>  
-      <p>إنشاء بوتات واتساب احترافية، دعم واجهات الإدارة للمطورين، نظام تنبيهات تلقائي، وخدمات تخصيص عالية الجودة.</p>  
-    </div>  
-    <div class="section">  
-      <h2>🚀 رؤيتي</h2>  
-      <p>أسعى لبناء تجربة سلسة تربط المستخدم بالتقنية عبر بوتات متطورة وسريعة الاستجابة تجعل العمل أسهل وأكثر ذكاءً.</p>  
-    </div>  
-    <div class="section">  
-      <h2>💡 مهاراتي</h2>  
-      <p>• تطوير البوتات متعددة الأجهزة (Multi Device)<br>• دمج واجهات API<br>• إدارة قواعد البيانات<br>• إنشاء لوحات تحكم احترافية للمطورين</p>  
-    </div>  
-    <div class="section">  
-      <h2>🧬 عبارات مميزة</h2>  
-      <p>"أحوّل الأفكار إلى أكواد حية"<br>"كل سطر برمجي هو خطوة نحو الإبداع"<br>"البساطة هي مفتاح التعقيد الذكي"</p>  
-    </div>  
-    <div class="button-group">  
-      <h2>📞 تواصل معي مباشرة</h2>  
-      <a class="whatsapp-btn" href="https://wa.me/201113538278?text=مرحبًا%20رياض%20أحتاج%20بوت%20واتساب" target="_blank">  
-        تواصل عبر واتساب  
-      </a>  
-      <a class="youtube-btn" href="https://youtube.com/@2007_felix?si=DsanwyxUi-pZU2vn" target="_blank">  
-        قناتي على يوتيوب  
-      </a>  
-      <a class="tiktok-btn" href="https://www.tiktok.com/@j95475?_t=ZS-90jpKS1RJ6Q&_r=1" target="_blank">  
-        قناتي على تيك توك  
-      </a>  
-    </div>  
-  </main>  
-  <footer>  
-    © 2025 𝑹𝑰𝒀𝑨𝑫 — جميع الحقوق محفوظة.  
-  </footer>  
-</body>  
+  <!-- مكتبة الأيقونات -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <!-- الخط الرئيسي -->
+  <style>
+  @import url('https://fonts.cdnfonts.com/css/source-code-pro');
+
+  /* إعدادات الصفحة العامة */
+  body {
+    font-family: 'Source Code Pro', monospace;
+    background-image: radial-gradient(ellipse at left, #1a001f, #090012);
+    color: #b966ff;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+  }
+
+  /* الصندوق الرئيسي */
+  .container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    border: 2px solid rgba(185, 102, 255, 0.3);
+    box-shadow: 0 0 30px rgba(185, 102, 255, 0.4);
+  }
+
+  /* العنوان */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 15px #b966ff, 0 0 40px #7a00ff;
+    color: #c788ff;
+  }
+
+  /* العناوين الفرعية للنماذج */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #c788ff;
+  }
+
+  /* الحقول */
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    outline: 1px solid rgba(185, 102, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  input:focus, textarea:focus {
+    outline: 1px solid #b966ff;
+    box-shadow: 0 0 15px #b966ff;
+    transform: scale(1.02);
+  }
+
+  /* زر الإرسال */
+  button {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+    background: linear-gradient(135deg, #8b00ff, #6a00b8, #000);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(139,0,255,0.6), 0 0 35px rgba(90,0,150,0.5);
+  }
+
+  button:hover {
+    transform: scale(1.05) rotate(-1deg);
+    background: linear-gradient(135deg, #a000ff, #8b00ff, #000);
+    box-shadow: 0 0 30px rgba(185,102,255,0.8), 0 0 50px rgba(120,0,255,0.7);
+  }
+
+  /* رسالة التنبيه */
+  .msgBox {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 22px;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.95);
+    color: #fff;
+    border: 1px solid #b966ff;
+    text-shadow: 0 0 10px #b966ff;
+    display: none;
+    z-index: 9999;
+  }
+
+  .msgBox.error {
+    border-color: #ff0044;
+    text-shadow: 0 0 10px #ff0044;
+  }
+
+  .msgBox.success {
+    border-color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- واجهة النموذج -->
+  <div class="container">
+    <h1>📩 تواصل معنا</h1>
+    <form id="contactForm">
+      <label for="name">الاسم:</label>
+      <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required>
+
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+      <label for="phone">رقم الهاتف:</label>
+      <input type="tel" id="phone" name="phone" placeholder="أدخل رقمك (اختياري)">
+
+      <label for="message">الرسالة:</label>
+      <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+      <button type="submit"><i class="fa-brands fa-whatsapp"></i> إرسال عبر واتساب</button>
+    </form>
+  </div>
+
+  <!-- صندوق الرسائل -->
+  <div class="msgBox" id="msgBox"></div>
+
+  <!-- سكربت واتساب -->
+  <script>
+  const form = document.getElementById('contactForm');
+  const msgBox = document.getElementById('msgBox');
+  const whatsappNumber = '201113538278'; // رقم واتسابك
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    // جمع البيانات
+    const name = encodeURIComponent(form.name.value);
+    const email = encodeURIComponent(form.email.value);
+    const phone = encodeURIComponent(form.phone.value || '—');
+    const message = encodeURIComponent(form.message.value);
+
+    // تنسيق الرسالة
+    const text = `💜 الاسم: ${name}%0A📧 البريد الإلكتروني: ${email}%0A📱 الهاتف: ${phone}%0A💬 الرسالة: ${message}`;
+
+    // فتح واتساب
+    const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+    window.open(url, '_blank');
+
+    // عرض تنبيه للمستخدم
+    msgBox.textContent = "✅ جاري فتح واتساب الآن...";
+    msgBox.className = "msgBox success";
+    msgBox.style.display = "block";
+
+    setTimeout(() => {
+      msgBox.style.display = "none";
+    }, 4000);
+  });
+  </script>
+
+</body>
 </html>
